@@ -1,4 +1,5 @@
 from flask_restful import Resource
+from flask import render_template, make_response
 from controllers.template_database_controller import TemplateDatabaserController
 
 class CheckResource(Resource):
@@ -10,4 +11,5 @@ class CheckResource(Resource):
         Return code to identify status of the api
         :return response: JSON. Ie, {}
         """
-        return TemplateDatabaserController.check_template_database()
+        headers = {'Content-Type': 'text/html'}
+        return make_response(render_template("welcome_page.html"),200,headers)
