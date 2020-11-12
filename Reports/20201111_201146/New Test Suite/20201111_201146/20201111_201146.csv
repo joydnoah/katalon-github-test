@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 86.0.4240.183,,,2020-11-11 20:11:49,2020-11-11 20:11:56,"6,580s",PASSED
+,,,,,,,
+Test Cases/New Test Case,Chrome 86.0.4240.183,,,2020-11-11 20:11:49,2020-11-11 20:11:56,"6,425s",PASSED
+"openBrowser("""")",Chrome 86.0.4240.183,,,2020-11-11 20:11:50,2020-11-11 20:11:53,"3,861s",PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 86.0.4240.183,,,2020-11-11 20:11:53,2020-11-11 20:11:54,"1,031s",PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Google/div_Ofrecido por Google en  Espaol (Latinoamrica)""), 0)",Chrome 86.0.4240.183,,,2020-11-11 20:11:54,2020-11-11 20:11:55,"0,499s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Google/div_Ofrecido por Google en  Espaol (Latinoamrica)""), ""Ofrecido por Google en: Español (Latinoamérica)"")",Chrome 86.0.4240.183,,,2020-11-11 20:11:55,2020-11-11 20:11:55,"0,269s",PASSED
+closeBrowser(),Chrome 86.0.4240.183,,,2020-11-11 20:11:55,2020-11-11 20:11:56,"0,583s",PASSED
