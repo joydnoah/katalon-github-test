@@ -141,3 +141,8 @@ ENV/
 # Spyder project settings
 
 # Rope project settings
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/
